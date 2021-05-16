@@ -29,7 +29,7 @@ def sign_in(meetingid,pswd):
 
     # Type the meeting ID
     meeting_id_btn = pyautogui.locateCenterOnScreen('D:\Cloud\OneDrive\Desktop\Zoom-Automation-Python\meeting_id_button.png')
-    pyautogui.moveTo(604,333)
+    pyautogui.moveTo(meeting_id_btn)
     pyautogui.click()
     keyboard.write(meetingid)
     pyautogui.press('enter')
